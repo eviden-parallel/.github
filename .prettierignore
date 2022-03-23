@@ -1,0 +1,34 @@
+.DS_Store
+node_modules
+/bdscan
+/dist
+/build
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Editor directories and files
+.idea
+.vscode
+.history
+*.code-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+/coverage
+
+# Generated files
+package-lock.json
+CHANGELOG.md
+git 
