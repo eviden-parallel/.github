@@ -1,34 +1,24 @@
 {
-	"name": "@atos-design/template",
+	"name": "@atos-design/.github",
 	"private": true,
 	"engines": {
 		"node": ">= 16.0.0",
 		"npm": ">= 8.0.0"
 	},
 	"scripts": {
-		"start": "echo 'No start script defined for this project'",
-		"build": "echo 'add a first typescript file and replace this line through `tsc'",
-		"build:watch": "tsc --watch",
-		"format": "prettier --write --ignore-unknown .",
-		"lint": "npm run lint:css && npm run lint:js && npm run lint:style",
-		"lint:css": "echo 'this should run stylelint'",
-		"lint:js": "echo 'this should run eslint'",
+		"lint": "npm run lint:style",
 		"lint:style": "prettier --check --ignore-unknown .",
-		"lint:fix": "npm run format",
-		"git:pre-commit": "npx pretty-quick --staged && echo 'npx lint-staged'",
-		"git:pre-push": "npm test",
-		"prepare": "husky install",
-		"release": "npx semantic-release",
-		"test": "echo 'No test script defined for this project'"
+		"lint:style:fix": "prettier --write --ignore-unknown .",
+		"lint:fix": "npm run lint:style:fix",
+		"git:pre-commit": "npx pretty-quick --staged",
+		"git:pre-push": "npm test --if-present",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"@atos-design/release-config": "1.0.2",
 		"@commitlint/cli": "^16.2.3",
 		"@commitlint/config-conventional": "^16.2.1",
 		"husky": "^7.0.2",
-		"lint-staged": "^12.3.7",
 		"prettier": "^2.6.0",
 		"pretty-quick": "^3.1.0"
-	},
-	"version": "1.0.0"
+	}
 }
