@@ -8,7 +8,7 @@ on:
 jobs:
   lint-msg:
     name: '🕵️‍♂️ Lint'
-    runs-on: [self-hosted, linux]
+    runs-on: ubuntu-latest
     container: node:lts-bullseye
 
     steps:
