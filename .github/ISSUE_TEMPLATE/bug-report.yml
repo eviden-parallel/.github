@@ -1,0 +1,88 @@
+name: '🐛 Bug report'
+description: Report a bug/problem
+title: '<title>'
+labels: ['🐛 bug', '👀 needs triage']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: what-happened
+    validations:
+      required: true
+    attributes:
+      label: Describe the bug
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see and add screenshots if relevant!
+
+  - type: textarea
+    id: reproduce-step
+    validations:
+      required: true
+    attributes:
+      label: Steps to reproduce
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see and add screenshots if relevant!
+
+  - type: dropdown
+    id: package
+    validations:
+      required: true
+    attributes:
+      label: Affected package
+      description: Which package is affected?
+      options:
+        - Core
+        - Components
+
+  - type: dropdown
+    id: platforms
+    validations:
+      required: true
+    attributes:
+      label: What platforms does this bug report apply to?
+      description: You may select more than one.
+      multiple: true
+      options:
+        - Desktop
+        - Mobile
+        - Tablet
+        - TV
+        - Foldable
+
+  - type: dropdown
+    id: browsers
+    validations:
+      required: true
+    attributes:
+      label: What browsers are you seeing the problem on?
+      description: You may select more than one.
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Edge
+        - Opera
+        - Other (add additional context)
+
+  - type: input
+    id: additional-context
+    validations:
+      required: false
+    attributes:
+      label: Additional context
+      description: Please add any additional context you have.
+      placeholder: e.g. "I was using Firefox on a Mac"
+
+  - type: input
+    id: example-url
+    validations:
+      required: false
+    attributes:
+      label: Example URL
+      description: Link to the public version of the page that you see the problem on or the issue on GitHub.
+      placeholder: https://example.com/
