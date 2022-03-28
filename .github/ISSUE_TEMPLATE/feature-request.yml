@@ -1,6 +1,5 @@
 name: '🙏 Feature request'
 description: Suggest a new feature for this project
-title: '<title>'
 labels: ['💡 feature', '👀 needs triage']
 
 body:

@@ -1,6 +1,5 @@
 name: '🐛 Bug report'
 description: Report a bug/problem
-title: '<title>'
 labels: ['🐛 bug', '👀 needs triage']
 
 body:

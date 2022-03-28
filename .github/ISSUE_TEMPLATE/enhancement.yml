@@ -1,6 +1,5 @@
 name: '📈 Enhancement'
 description: Suggest an idea to improve this project
-title: '<title>'
 labels: ['📈 enhancement', '👀 needs triage']
 
 body:
