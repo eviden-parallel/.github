@@ -3,7 +3,7 @@
 name: Dependabot automation
 
 on:
-  pull_request:
+  pull_request_target:
 
 permissions:
   pull-requests: write
@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   dependabot:
-    runs-on: [self-hosted, linux]
+    runs-on: ubuntu-latest
     if: ${{ github.actor == 'dependabot[bot]' }}
     steps:
       - name: Dependabot metadata

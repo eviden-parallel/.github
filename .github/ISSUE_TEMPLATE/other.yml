@@ -1,0 +1,46 @@
+name: '🤷 Other'
+description: Everything that doesn't fit in the other categories
+title: '<title>'
+labels: ['👀 needs triage']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this issue!
+
+  - type: dropdown
+    id: package
+    validations:
+      required: false
+    attributes:
+      label: Affected package
+      description: Which package is affected?
+      options:
+        - Core
+        - Components
+        - Docs
+
+  - type: textarea
+    id: what-happened
+    validations:
+      required: true
+    attributes:
+      label: Current behavior
+      description: Is your feature request related to a problem? Please describe.
+
+  - type: textarea
+    id: suggested-solution
+    validations:
+      required: false
+    attributes:
+      label: Suggested enhancement
+      description: Describe the enhancement you'd like.
+
+  - type: input
+    id: context
+    validations:
+      required: false
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem or helpful links here.
