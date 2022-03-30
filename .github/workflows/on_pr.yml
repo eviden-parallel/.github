@@ -14,17 +14,17 @@ on:
 jobs:
   lint-pr:
     name: '📌'
-    uses: ./.github/workflows/lint-pr.yml@v1
+    uses: ./.github/workflows/lint-pr.yml
 
   lint-code:
     name: '📌'
     needs: [lint-pr]
-    uses: ./.github/workflows/lint-code.yml@v1
+    uses: ./.github/workflows/lint-code.yml
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
 
   dependabot:
     name: '📌'
-    uses: ./.github/workflows/dependabot.yml@v1
+    uses: ./.github/workflows/dependabot.yml
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}

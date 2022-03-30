@@ -14,6 +14,6 @@ on:
 jobs:
   lint-code:
     name: '📌'
-    uses: ./.github/workflows/lint-code.yml@v1
+    uses: ./.github/workflows/lint-code.yml
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
