@@ -4,5 +4,4 @@
 # the repo. Unless a later match takes precedence,
 # Owners will be requested for review when someone opens a pull request.
 
-*       @ATOS-DESIGN/code-owners
-
+*	@ATOS-DESIGN/code-owners
