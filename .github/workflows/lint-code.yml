@@ -16,7 +16,7 @@ jobs:
   lint:
     name: '🕵️‍♂️ Lint Code'
     runs-on: ubuntu-latest
-    container: node:lts-bullseye
+    # container: node:lts-bullseye
 
     steps:
       - name: '☁️ Checkout repository'
