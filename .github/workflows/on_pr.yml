@@ -23,25 +23,6 @@ jobs:
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
 
-  build-code:
-    name: '▶️ actions'
-    needs: [lint-code]
-    uses: ATOS-DESIGN/actions/.github/workflows/build-code.yml@v1
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
-
-  test-code:
-    name: '▶️ actions'
-    needs: [lint-code]
-    uses: ATOS-DESIGN/actions/.github/workflows/test-code.yml@v1
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
-
-  codeql:
-    name: '▶️ actions'
-    needs: [lint-code]
-    uses: ATOS-DESIGN/actions/.github/workflows/codeql.yml@v1
-
   dependabot:
     name: '▶️ actions'
     uses: ATOS-DESIGN/actions/.github/workflows/dependabot.yml@v1

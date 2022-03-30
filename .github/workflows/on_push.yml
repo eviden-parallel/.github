@@ -17,36 +17,3 @@ jobs:
     uses: ATOS-DESIGN/actions/.github/workflows/lint-code.yml@v1
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
-
-  build-code:
-    name: '▶️ actions'
-    needs: [lint-code]
-    uses: ATOS-DESIGN/actions/.github/workflows/build-code.yml@v1
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
-
-  test-code:
-    name: '▶️ actions'
-    needs: [lint-code]
-    uses: ATOS-DESIGN/actions/.github/workflows/test-code.yml@v1
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
-
-  codeql:
-    name: '▶️ actions'
-    needs: [lint-code]
-    uses: ATOS-DESIGN/actions/.github/workflows/codeql.yml@v1
-
-  dependabot:
-    name: '▶️ actions'
-    uses: ATOS-DESIGN/actions/.github/workflows/dependabot.yml@v1
-    secrets:
-      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
-
-  release:
-    name: '▶️ actions'
-    needs: [lint-code, build-code, test-code, codeql]
-    uses: ATOS-DESIGN/actions/.github/workflows/release.yml@v1
-    secrets:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
-      GH_TOKEN: ${{ secrets.GH_TOKEN  }}
