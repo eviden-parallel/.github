@@ -12,7 +12,7 @@ on:
 jobs:
   lint-pr:
     name: '🕵️‍♂️ Lint Commit Message'
-    runs-on: [self-hosted, linux]
+    runs-on: ubuntu-latest
     # container: node:lts-bullseye
 
     steps:
