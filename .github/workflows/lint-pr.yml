@@ -1,0 +1,34 @@
+# This is the workflow to validate a PR
+#
+name: Lint Pull Request
+
+on:
+  # Allows you to call this workflow from other workflows
+  workflow_call:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  lint-pr:
+    name: '🕵️‍♂️ Lint Commit Message'
+    runs-on: [self-hosted, linux]
+    # container: node:lts-bullseye
+
+    steps:
+      - name: '☁️ Checkout repository'
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      # check for the most recent release: https://github.com/Namchee/conventional-pr/releases
+      - name: '✅ Lint PR'
+        uses: Namchee/conventional-pr@v0.9.0
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          label: '⁉️ invalid'
+          branch_pattern: ''
+
+      - name: '🧹 Cleanup workspace'
+        uses: ATOS-Actions/clean-self-hosted-runner@v1

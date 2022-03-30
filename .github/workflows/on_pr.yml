@@ -13,18 +13,18 @@ on:
 
 jobs:
   lint-pr:
-    name: '▶️ actions'
-    uses: ATOS-DESIGN/actions/.github/workflows/lint-pr.yml@v1
+    name: '📌'
+    uses: ./.github/workflows/lint-pr.yml@v1
 
   lint-code:
-    name: '▶️ actions'
+    name: '📌'
     needs: [lint-pr]
-    uses: ATOS-DESIGN/actions/.github/workflows/lint-code.yml@v1
+    uses: ./.github/workflows/lint-code.yml@v1
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
 
   dependabot:
-    name: '▶️ actions'
-    uses: ATOS-DESIGN/actions/.github/workflows/dependabot.yml@v1
+    name: '📌'
+    uses: ./.github/workflows/dependabot.yml@v1
     secrets:
       GH_TOKEN: ${{ secrets.GH_TOKEN  }}

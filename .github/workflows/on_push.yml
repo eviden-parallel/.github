@@ -13,7 +13,7 @@ on:
 
 jobs:
   lint-code:
-    name: '▶️ actions'
-    uses: ATOS-DESIGN/actions/.github/workflows/lint-code.yml@v1
+    name: '📌'
+    uses: ./.github/workflows/lint-code.yml@v1
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
