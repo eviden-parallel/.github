@@ -33,9 +33,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@atos-design'
 
-      - name: '➡️ Configure NPM Proxy'
-        uses: de-als-cycos-dev/actions-npm-proxy@v1
-
       - name: '⛓️ Install dependencies'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -43,6 +40,3 @@ jobs:
 
       - name: '✅ Lint code'
         run: npm run lint
-
-      - name: '🧹 Cleanup workspace'
-        uses: ATOS-Actions/clean-self-hosted-runner@v1

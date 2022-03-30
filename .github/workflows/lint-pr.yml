@@ -29,6 +29,3 @@ jobs:
           access_token: ${{ secrets.GITHUB_TOKEN }}
           label: '⁉️ invalid'
           branch_pattern: ''
-
-      - name: '🧹 Cleanup workspace'
-        uses: ATOS-Actions/clean-self-hosted-runner@v1
