@@ -82,6 +82,31 @@ Include details about your configuration and environment:
 - **Are you using the Atos Design System with multiple monitors?** If so, can you reproduce the problem when you use a single monitor?
 - **Which keyboard layout are you using?** Are you using a US layout or some other layout?
 
+### Suggesting Enhancements
+
+This section guides you through submitting an enhancement suggestion for the Atos Design System, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
+
+Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in the correct template for [feature request](https://github.com/ATOS-DESIGN/.github/blob/master/.github/ISSUE_TEMPLATE/feature-request.yml) and [enhancement](https://github.com/ATOS-DESIGN/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement.yml), including the steps that you imagine you would take if the feature you're requesting existed.
+
+#### Before Submitting An Enhancement Suggestion
+
+- **Determine [which repository the enhancement should be suggested in](#atos-design-system-and-packages)**.
+- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3AATOS-DESIGN** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+
+#### How Do I Submit A (Good) Enhancement Suggestion?
+
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#atos-design-system-and-packages) your enhancement suggestion is related to, create an issue on that repository and provide the following information:
+
+- **Use a clear and descriptive title** for the issue to identify the suggestion.
+- **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
+- **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+- **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
+- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of Atom which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+- **Explain why this enhancement would be useful** to most Atos Design System users and isn't something that can or should be implemented as a [community package](#atos-design-system-and-packages).
+- **List some other design systems or applications where this enhancement exists.**
+- **Specify which version of the Atos Design System are you using?** You can get the exact version from the package-lock.json file in your project.
+- **Specify the name and version of the OS you're using.**
+
 ## Submitting a pull request
 
 0. Fork and clone the repository
