@@ -107,46 +107,42 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 - **Specify which version of the Atos Design System are you using?** You can get the exact version from the package-lock.json file in your project.
 - **Specify the name and version of the OS you're using.**
 
-## Submitting a pull request
+### Your First Code Contribution
 
-0. Fork and clone the repository
-1. Configure and install the dependencies
-2. Make sure the tests pass on your machine
-3. Create a new branch: `git checkout -b my-branch-name`
-4. Make your change, add tests, and make sure the tests still pass
-5. Push to your fork and submit a pull request
-6. Pat your self on the back and wait for your pull request to be reviewed and merged.
+Unsure where to begin contributing to Atom? You can start by looking through these [🆘 help wanted](https://github.com/ATOS-DESIGN/web/search?q=org%3AATOS-DESIGN+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
 
-Here are a few things you can do that will increase the likelihood of your pull request being accepted:
+### Pull Requests
+
+The process described here has several goals:
+
+- Maintain the Atos Design System's quality
+- Fix problems that are important to users
+- Engage the community in working toward the best possible Atos Design System
+- Enable a sustainable system for Atos Design System's maintainers to review contributions
+
+Please follow these steps to have your contribution considered by the maintainers:
+
+1. Follow all instructions in [the template](PULL_REQUEST_TEMPLATE.md)
+2. Follow the [styleguides](#styleguides)
+3. Assign the issue(s) to yourself to avoid concurent work on the same task.
+4. Open the PR as soon as possible in status `Draft` until it is ready for review.
+5. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
+
+While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
+
+Here are a addit few things you can do that will increase the likelihood of your pull request being accepted:
 
 - Read the [contributing guidelines](CONTRIBUTING.md).
 - Branch name follows [Branching guidelines](#branching-guidelines).
-- Commit follows [Commit guidelines](#commit-guidelines).
+- Commits follows [Commit guidelines](#commit-guidelines).
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 - Design matches [Styleguide](https://www.figma.com/files/project/43184637/Alcatraz---Global---Design-System?fuid=1047100908013007111)
-- Follow standards for style and code quality
-- Write tests.
+- Write tests whenever applicable.
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 
-## Styleguide
+## Styleguides
 
-### Branches
-
-#### Release branches
-
-The following branches are used for releases.
-Changes should be made to development branches and merge into release branches through pull requests.
-
-| Branch              | Tag         | Description                                    |
-| ------------------- | ----------- | ---------------------------------------------- |
-| `main`              | latest      | Currentey released version                     |
-| `next`              | next        | Released version, not yet ready for prime time |
-| `beta`              | beta        | Beta version                                   |
-| `alpha`             | alpha       | Alpha version                                  |
-| `release-<version>` | `<version>` | LTS version                                    |
-| `docs`              | -           | Generated documentation                        |
-
-#### Development branches
+### Branche name
 
 Develoment branches should follow the following format: `<type>/<name>`
 To make it easier, type uses the same values as the type in commit messages and must be one of the following:
@@ -164,6 +160,19 @@ To make it easier, type uses the same values as the type in commit messages and 
 | `test`      | Adding missing tests or correcting existing tests                                                           |
 | `chore`     | Changes to the build process or auxiliary tools (example scopes: gulp, broccoli, npm)                       |
 | `reasearch` | Researching and learning new technologies                                                                   |
+
+#### Release branches
+
+The following branches are used for releases.
+Changes should be made to development branches and merge into release branches through pull requests.
+
+| Branch              | Tag         | Description                                    |
+| ------------------- | ----------- | ---------------------------------------------- |
+| `main`              | latest      | Currentey released version                     |
+| `next`              | next        | Released version, not yet ready for prime time |
+| `beta`              | beta        | Beta version                                   |
+| `alpha`             | alpha       | Alpha version                                  |
+| `release-<version>` | `<version>` | LTS version                                    |
 
 ### Commit message
 
