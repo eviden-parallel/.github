@@ -109,7 +109,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to Atom? You can start by looking through these [🆘 help wanted](https://github.com/ATOS-DESIGN/web/search?q=org%3AATOS-DESIGN+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
+Unsure where to begin contributing to the Atos Design System? You can start by looking through these [🆘 help wanted](https://github.com/ATOS-DESIGN/web/search?q=org%3AATOS-DESIGN+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
 
 ### Pull Requests
 
