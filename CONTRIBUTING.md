@@ -2,7 +2,7 @@
 
 :+1::tada: Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great. :tada::+1:
 
-The following is a set of guidelines for contributing to the Atos Design System and its packages, which are hosted in the [ATOS-DESIGN Organization](https://github.com/ATOS-DESIGN) on GitHub.
+The following is a set of guidelines for contributing to **Parallel** and its packages, which are hosted in the [atos-parallel organization](https://github.com/atos-parallel) on GitHub.
 These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ## Code of Conduct
@@ -15,51 +15,51 @@ This project and everyone participating in it is governed by the [Atom Code of C
 
 We have an official message board where the community chimes in with helpful advice if you have questions.
 
-- [Github Discussions, the official Atos Design System message board](https://github.com/orgs/ATOS-DESIGN/discussions)
+- [Github Discussions, the official **Parallel** message board](https://github.com/orgs/atos-parallel/discussions)
 
 ## What should I know before I get started?
 
-### Atos Design System and Packages
+### Parallel and Packages
 
-Atos Design System is project made up of [multiple repositories](https://github.com/ATOS-DESIGN). When you initially consider contributing to the Atos Design System, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
+**Parallel** is project made up of [multiple repositories](https://github.com/atos-parallel). When you initially consider contributing to **Parallel**, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
-- [@atos-design/web](https://github.com/ATOS-DESIGN/web) - monorepo for the Atos Design System web components. It is the source for both the `@atos-design/core` and `@atos-design/components` packages.
-- [@atos-design/icons](https://github.com/ATOS-DESIGN/icons) - the icons that can be used with the Atos Design System through the `@atos-design/icons` package.
-- [@atos-design/playground](https://github.com/ATOS-DESIGN/playground) - For any kind of research and experimentation
-- [@atos-design/welcome](https://github.com/ATOS-DESIGN/welcome) - tne welcome page for the Atos Design System
+- [@atos-parallel/web](https://github.com/atos-parallel/web) - monorepo for **Parallel** web components. It is the source for both the `@atos-parallel/core` and `@atos-parallel/components` packages.
+- [@atos-parallel/icons](https://github.com/atos-parallel/icons) - the icons that can be used with **Parallel** through the `@atos-parallel/icons` package.
+- [@atos-parallel/playground](https://github.com/atos-parallel/playground) - For any kind of research and experimentation
+- [@atos-parallel/welcome](https://github.com/atos-parallel/welcome) - tne welcome page for **Parallel**
 
 There are more, but this list should be a good starting point.
 
 ### Design 🎨
 
-Every part of the Atos Design System is carefully crafted and reviewed by our design team before being implemented.
-It will be documented in our [Design Documentation](https://www.figma.com/file/E91x6A8TrQ5vyB8yZmMprj/Non-Alcatraz-Design-Library)
-If you have a question around how we design things, check to see if it is documented there. If it is _not_ documented there, please open a new topic on [Github Discussions, the official Atos Design System message board](https://github.com/orgs/ATOS-DESIGN/discussions) and ask your question.
+Every part of **Parallel** is carefully crafted and reviewed by our design team before being implemented.
+It will be documented in our [Design Documentation](<https://www.figma.com/file/HCQhkrZ5uM4nI8CvAnR98b/Parallel-Design-Kit-(Public)>)
+If you have a question around how we design things, check to see if it is documented there. If it is _not_ documented there, please open a new topic on [Github Discussions, the official **Parallel** message board](https://github.com/orgs/atos-parallel/discussions) and ask your question.
 
 ## How Can I Contribute?
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for the Atos Design System. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
+This section guides you through submitting a bug report for **Parallel**. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/ATOS-DESIGN/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml), the information it asks for helps us resolve issues faster.
+Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 #### Before Submitting A Bug Report
 
-- **Check the [discussions](https://github.com/orgs/ATOS-DESIGN/discussions)** for a list of common questions and problems.
-- **Determine [which repository the problem should be reported in](#atos-design-system-and-packages)**.
-- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3AATOS-DESIGN** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+- **Check the [discussions](https://github.com/orgs/atos-parallel/discussions)** for a list of common questions and problems.
+- **Determine [which repository the problem should be reported in](#parallel-and-packages)**.
+- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Aatos-parallel** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#atos-design-system-and-packages) your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/ATOS-DESIGN/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#parallel-and-packages) your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
 - **Use a clear and descriptive title** for the issue to identify the problem.
-- **Describe the exact steps which reproduce the problem** in as many details as possible. For example, start by explaining how you use the Atos design System, e.g. which command exactly you used in the terminal, or how you included the Atos Design System otherwise. When listing steps, **don't just say what you did, but explain how you did it**. For example, if you moved the cursor to the end of a line, explain if you used the mouse, or a keyboard shortcut, and if so which one?
+- **Describe the exact steps which reproduce the problem** in as many details as possible. For example, start by explaining how you use **Parallel**, e.g. which command exactly you used in the terminal, or how you included **Parallel** otherwise. When listing steps, **don't just say what you did, but explain how you did it**. For example, if you moved the cursor to the end of a line, explain if you used the mouse, or a keyboard shortcut, and if so which one?
 - **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 - **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 - **Explain which behavior you expected to see instead and why.**
@@ -70,55 +70,55 @@ Explain the problem and include additional details to help maintainers reproduce
 Provide more context by answering these questions:
 
 - **Can you reproduce the problem?**
-- **Did the problem start happening recently** (e.g. after updating to a new version of the Atos Design System) or was this always a problem?
-- If the problem started happening recently, **can you reproduce the problem in an older version of the Atos Design System?** What's the most recent version in which the problem doesn't happen? You can download older versions of the Atos Design System from [the releases page](https://github.com/ATOS-DESIGN/web/releases).
+- **Did the problem start happening recently** (e.g. after updating to a new version of **Parallel**) or was this always a problem?
+- If the problem started happening recently, **can you reproduce the problem in an older version of **Parallel**?** What's the most recent version in which the problem doesn't happen? You can download older versions of **Parallel** from [the releases page](https://github.com/atos-parallel/web/releases).
 - **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
 
 Include details about your configuration and environment:
 
-- **Which version of the Atos Design System are you using?** You can get the exact version from the package-lock.json file in your project.
+- **Which version of **Parallel** are you using?** You can get the exact version from the package-lock.json file in your project.
 - **What's the name and version of the OS you're using**?
-- **Which [packages](#atos-design-system-and-packages) do you have installed?**.
-- **Are you using the Atos Design System with multiple monitors?** If so, can you reproduce the problem when you use a single monitor?
+- **Which [packages](#parallel-and-packages) do you have installed?**.
+- **Are you using **Parallel** with multiple monitors?** If so, can you reproduce the problem when you use a single monitor?
 - **Which keyboard layout are you using?** Are you using a US layout or some other layout?
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion for the Atos Design System, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
+This section guides you through submitting an enhancement suggestion for **Parallel**, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in the correct template for [feature request](https://github.com/ATOS-DESIGN/.github/blob/master/.github/ISSUE_TEMPLATE/feature-request.yml) and [enhancement](https://github.com/ATOS-DESIGN/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement.yml), including the steps that you imagine you would take if the feature you're requesting existed.
+Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in the correct template for [feature request](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/feature-request.yml) and [enhancement](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement.yml), including the steps that you imagine you would take if the feature you're requesting existed.
 
 #### Before Submitting An Enhancement Suggestion
 
-- **Determine [which repository the enhancement should be suggested in](#atos-design-system-and-packages)**.
-- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3AATOS-DESIGN** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- **Determine [which repository the enhancement should be suggested in](#parallel-and-packages)**.
+- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Aatos-parallel** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Enhancement Suggestion?
 
-Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#atos-design-system-and-packages) your enhancement suggestion is related to, create an issue on that repository and provide the following information:
+Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#parallel-and-packages) your enhancement suggestion is related to, create an issue on that repository and provide the following information:
 
 - **Use a clear and descriptive title** for the issue to identify the suggestion.
 - **Provide a step-by-step description of the suggested enhancement** in as many details as possible.
 - **Provide specific examples to demonstrate the steps**. Include copy/pasteable snippets which you use in those examples, as [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
 - **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
-- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of the Atos Design System which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
-- **Explain why this enhancement would be useful** to most Atos Design System users and isn't something that can or should be implemented as a [community package](#atos-design-system-and-packages).
+- **Include screenshots and animated GIFs** which help you demonstrate the steps or point out the part of **Parallel** which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+- **Explain why this enhancement would be useful** to most **Parallel** users and isn't something that can or should be implemented as a [community package](#parallel-and-packages).
 - **List some other design systems or applications where this enhancement exists.**
-- **Specify which version of the Atos Design System are you using?** You can get the exact version from the package-lock.json file in your project.
+- **Specify which version of **Parallel** are you using?** You can get the exact version from the package-lock.json file in your project.
 - **Specify the name and version of the OS you're using.**
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to the Atos Design System? You can start by looking through these [🆘 help wanted](https://github.com/ATOS-DESIGN/web/search?q=org%3AATOS-DESIGN+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
+Unsure where to begin contributing to **Parallel**? You can start by looking through these [🆘 help wanted](https://github.com/atos-parallel/web/search?q=org%3Aatos-parallel+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
 
 ### Pull Requests
 
 The process described here has several goals:
 
-- Maintain the Atos Design System's quality
+- Maintain **Parallel**'s quality
 - Fix problems that are important to users
-- Engage the community in working toward the best possible Atos Design System
-- Enable a sustainable system for Atos Design System's maintainers to review contributions
+- Engage the community in working toward the best possible **Parallel**
+- Enable a sustainable system for **Parallel**'s maintainers to review contributions
 
 Please follow these steps to have your contribution considered by the maintainers:
 
@@ -136,7 +136,7 @@ Here are a addit few things you can do that will increase the likelihood of your
 - Branch name follows [Branching guidelines](#branching-guidelines).
 - Commits follows [Commit guidelines](#commit-guidelines).
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
-- Design matches [Styleguide](https://www.figma.com/files/project/43184637/Alcatraz---Global---Design-System?fuid=1047100908013007111)
+- Design matches [Styleguide](<https://www.figma.com/file/HCQhkrZ5uM4nI8CvAnR98b/Parallel-Design-Kit-(Public)>)
 - Write tests whenever applicable.
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 
