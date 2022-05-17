@@ -1,6 +1,8 @@
 <div align='center'>
-<img alt="Atos Parallel" src="assets/parallel-logo.svg?raw=true" width="300px">
-
+<svg width="300px">
+<title>Atos Parallel</title>
+<use href="profile/assets/parallel-logo.svg?raw=true#parallel-logo">
+</svg>
 <h1>Parallel - The Atos Design System</h1>
 </div>
 
