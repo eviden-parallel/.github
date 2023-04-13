@@ -13,6 +13,7 @@ Find more information about **Parallel** on:
 - [The **Parallel** website](https://parallel.myatos.net)
 - [The **Parallel** Design Kit](<https://www.figma.com/file/HCQhkrZ5uM4nI8CvAnR98b/Parallel-Design-Kit-(Public)>) on Figma
 - [The **Parallel** Repository](https://github.com/atos-parallel) on Github
+- [The **Parallel** Storybook Documentation](https://main--62751021a57ceb004a5a5182.chromatic.com/)
 
 ## 🧑‍💻 Contributing
 
