@@ -1,10 +1,10 @@
 <div align='center'>
-<img alt="Atos Parallel" src="profile/assets/parallel-logo.svg?raw=true" width="300px">
+<img alt="Parallel" src="profile/assets/parallel-logo.svg?raw=true" width="300px">
 
-<h1>Parallel - The Atos Design System</h1>
+<h1>Parallel - The Design System</h1>
 </div>
 
-**Parallel** is the Atos Design System which allows designers and developers to quickly and consistently create products for Atos customers. **Parallel** is based on web standards and not bound to to any framework and can be used to develop any kind of mobile, web and desktop (PWA) applications.
+**Parallel** is the Design System which allows designers and developers to quickly and consistently create products for our customers. **Parallel** is based on web standards and not bound to to any framework and can be used to develop any kind of mobile, web and desktop (PWA) applications.
 
 ## 🔗 Links
 
@@ -27,4 +27,4 @@ If you have questions, join the conversations in our [Message Board](https://git
 
 ## ©️ License
 
-<img alt="Atos Parallel" src="https://github.com/atos-parallel/.github/blob/main/profile/assets/atos-logo.png?raw=true" width="100px">
+<img alt="Parallel" src="profile/assets/atos-logo.png?raw=true" width="100px">
