@@ -28,12 +28,14 @@ body:
       label: Type of feature
       description: Select the type of feature request, the lowercase should also be the PR prefix.
       options:
-        - '🎨 Style'
-        - '🧑‍💻 Refactor'
-        - '🔥 Performance'
-        - '✅ Test'
+        - '♿ Accessibility'
         - '🤖 Build'
         - '🔁 CI'
+        - '🔥 Performance'
+        - '🧑‍💻 Refactor'
+        - '🎨 Style'
+        - '✅ Test'
+        - '🤷 Other'
 
   - type: textarea
     id: what-happened
