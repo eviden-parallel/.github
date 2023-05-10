@@ -18,7 +18,9 @@ body:
       options:
         - Core
         - Components
+        - Icons
         - Docs
+        - Bootstrap
 
   - type: dropdown
     validations:
