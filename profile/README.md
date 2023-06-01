@@ -30,10 +30,10 @@ If you have questions, join the conversations in our [Message Board](https://git
 
 Find more information about **Parallel** on:
 
-[<img alt="" src="profile/assets/parallel-icon.min.svg?raw=true" width="24px"> The **Parallel** website](https://parallel.eviden.com)  
-[<img alt="" src="profile/assets/figma.svg?raw=true" width="24px"> The **Parallel** Design Kit](https://parallel.eviden.com/design) on Figma  
-[<img alt="" src="profile/assets/github.svg?raw=true" width="24px"> The **Parallel** Repository](https://parallel.eviden.com/dev) on Github  
-[<img alt="" src="profile/assets/storybook.svg?raw=true" width="24px"> The **Parallel** Storybook Documentation](https://parallel.eviden.com/docs)
+<a href="https://parallel.eviden.com" style="display: flex; gap: 16px;"><img alt="" src="profile/assets/parallel-icon.min.svg?raw=true" height="24px"><span>The **Parallel** website</span></a>
+<a href="https://parallel.eviden.com/design" style="display: flex; gap: 16px;"><img alt="" src="profile/assets/figma.svg?raw=true" height="24px"><span>The **Parallel** Design Kit on Figma </span></a>
+<a href="https://parallel.eviden.com/dev" style="display: flex; gap: 16px;"><img alt="" src="profile/assets/github.svg?raw=true" height="24px"><span>The **Parallel** Repository on Github</span></a>
+<a href="https://parallel.eviden.com/docs" style="display: flex; gap: 16px;"><img alt="" src="profile/assets/storybook.svg?raw=true" height="24px"><span>The **Parallel** Storybook Documentation</span></a>
 
 ## ©️ License
 
