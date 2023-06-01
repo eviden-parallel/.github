@@ -2,7 +2,7 @@
 
 :+1::tada: Hi there! We're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great. :tada::+1:
 
-The following is a set of guidelines for contributing to **Parallel** and its packages, which are hosted in the [atos-parallel organization](https://github.com/atos-parallel) on GitHub.
+The following is a set of guidelines for contributing to **Parallel** and its packages, which are hosted in the [eviden-parallel organization](https://github.com/eviden-parallel) on GitHub.
 These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 ## Code of Conduct
@@ -15,18 +15,19 @@ This project and everyone participating in it is governed by the [Atom Code of C
 
 We have an official message board where the community chimes in with helpful advice if you have questions.
 
-- [Github Discussions, the official **Parallel** message board](https://github.com/orgs/atos-parallel/discussions)
+- [Github Discussions, the official **Parallel** message board](https://github.com/orgs/eviden-parallel/discussions)
 
 ## What should I know before I get started?
 
 ### Parallel and Packages
 
-**Parallel** is project made up of [multiple repositories](https://github.com/atos-parallel). When you initially consider contributing to **Parallel**, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
+**Parallel** is project made up of [multiple repositories](https://github.com/eviden-parallel). When you initially consider contributing to **Parallel**, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
-- [@atos-parallel/web](https://github.com/atos-parallel/web) - monorepo for **Parallel** web components. It is the source for both the `@atos-parallel/core` and `@atos-parallel/components` packages.
-- [@atos-parallel/icons](https://github.com/atos-parallel/icons) - the icons that can be used with **Parallel** through the `@atos-parallel/icons` package.
-- [@atos-parallel/playground](https://github.com/atos-parallel/playground) - For any kind of research and experimentation
-- [@atos-parallel/welcome](https://github.com/atos-parallel/welcome) - tne welcome page for **Parallel**
+- [@eviden-parallel/web](https://github.com/eviden-parallel/web) - monorepo for **Parallel** web components. It is the source for both the `@eviden-parallel/core` and `@eviden-parallel/components` packages.
+- [@eviden-parallel/icons](https://github.com/eviden-parallel/icons) - the icons that can be used with **Parallel** through the `@eviden-parallel/icons` package.
+- [@eviden-parallel/bootstrap](https://github.com/eviden-parallel/bootstrap) - a custom style to make Bootstrap look like **Parallel** through the `@eviden-parallel/bootsrap` package.
+- [@eviden-parallel/playground](https://github.com/eviden-parallel/playground) - For any kind of research and experimentation
+- [@eviden-parallel/welcome](https://github.com/eviden-parallel/welcome) - tne welcome page for **Parallel**
 
 There are more, but this list should be a good starting point.
 
@@ -34,7 +35,7 @@ There are more, but this list should be a good starting point.
 
 Every part of **Parallel** is carefully crafted and reviewed by our design team before being implemented.
 It will be documented in our [Design Documentation](<https://www.figma.com/file/HCQhkrZ5uM4nI8CvAnR98b/Parallel-Design-Kit-(Public)>)
-If you have a question around how we design things, check to see if it is documented there. If it is _not_ documented there, please open a new topic on [Github Discussions, the official **Parallel** message board](https://github.com/orgs/atos-parallel/discussions) and ask your question.
+If you have a question around how we design things, check to see if it is documented there. If it is _not_ documented there, please open a new topic on [Github Discussions, the official **Parallel** message board](https://github.com/orgs/eviden-parallel/discussions) and ask your question.
 
 ## How Can I Contribute?
 
@@ -42,19 +43,19 @@ If you have a question around how we design things, check to see if it is docume
 
 This section guides you through submitting a bug report for **Parallel**. Following these guidelines helps maintainers and the community understand your report :pencil:, reproduce the behavior :computer: :computer:, and find related reports :mag_right:.
 
-Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml), the information it asks for helps us resolve issues faster.
+Before creating bug reports, please check [this list](#before-submitting-a-bug-report) as you might find out that you don't need to create one. When you are creating a bug report, please [include as many details as possible](#how-do-i-submit-a-good-bug-report). Fill out [the required template](https://github.com/eviden-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml), the information it asks for helps us resolve issues faster.
 
 > **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 #### Before Submitting A Bug Report
 
-- **Check the [discussions](https://github.com/orgs/atos-parallel/discussions)** for a list of common questions and problems.
+- **Check the [discussions](https://github.com/orgs/eviden-parallel/discussions)** for a list of common questions and problems.
 - **Determine [which repository the problem should be reported in](#parallel-and-packages)**.
-- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Aatos-parallel** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Aeviden-parallel** to see if the problem has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Bug Report?
 
-Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#parallel-and-packages) your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml).
+Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). After you've determined [which repository](#parallel-and-packages) your bug is related to, create an issue on that repository and provide the following information by filling in [the template](https://github.com/eviden-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/bug-report.yml).
 
 Explain the problem and include additional details to help maintainers reproduce the problem:
 
@@ -71,7 +72,7 @@ Provide more context by answering these questions:
 
 - **Can you reproduce the problem?**
 - **Did the problem start happening recently** (e.g. after updating to a new version of **Parallel**) or was this always a problem?
-- If the problem started happening recently, **can you reproduce the problem in an older version of **Parallel**?** What's the most recent version in which the problem doesn't happen? You can download older versions of **Parallel** from [the releases page](https://github.com/atos-parallel/web/releases).
+- If the problem started happening recently, **can you reproduce the problem in an older version of **Parallel**?** What's the most recent version in which the problem doesn't happen? You can download older versions of **Parallel** from [the releases page](https://github.com/eviden-parallel/web/releases).
 - **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
 
 Include details about your configuration and environment:
@@ -86,12 +87,12 @@ Include details about your configuration and environment:
 
 This section guides you through submitting an enhancement suggestion for **Parallel**, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
-Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in the correct template for [feature request](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/feature-request.yml) and [enhancement](https://github.com/atos-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement.yml), including the steps that you imagine you would take if the feature you're requesting existed.
+Before creating enhancement suggestions, please check [this list](#before-submitting-an-enhancement-suggestion) as you might find out that you don't need to create one. When you are creating an enhancement suggestion, please [include as many details as possible](#how-do-i-submit-a-good-enhancement-suggestion). Fill in the correct template for [feature request](https://github.com/eviden-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/feature-request.yml) and [enhancement](https://github.com/eviden-parallel/.github/blob/master/.github/ISSUE_TEMPLATE/enhancement.yml), including the steps that you imagine you would take if the feature you're requesting existed.
 
 #### Before Submitting An Enhancement Suggestion
 
 - **Determine [which repository the enhancement should be suggested in](#parallel-and-packages)**.
-- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Aatos-parallel** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+- **Perform a [cursory search](https://github.com/search?q=+is%3Aissue+org%3Aeviden-parallel** to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A (Good) Enhancement Suggestion?
 
@@ -109,7 +110,7 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 
 ### Your First Code Contribution
 
-Unsure where to begin contributing to **Parallel**? You can start by looking through these [🆘 help wanted](https://github.com/atos-parallel/web/search?q=org%3Aatos-parallel+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
+Unsure where to begin contributing to **Parallel**? You can start by looking through these [🆘 help wanted](https://github.com/eviden-parallel/web/search?q=org%3Aeviden-parallel+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
 
 ### Pull Requests
 
@@ -136,7 +137,7 @@ Here are a addit few things you can do that will increase the likelihood of your
 - Branch name follows [Branching guidelines](#branching-guidelines).
 - Commits follows [Commit guidelines](#commit-guidelines).
 - Write a [good commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
-- Design matches [Styleguide](<https://www.figma.com/file/HCQhkrZ5uM4nI8CvAnR98b/Parallel-Design-Kit-(Public)>)
+- Design matches [Styleguide](https://parallel.eviden.com/design)
 - Write tests whenever applicable.
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 

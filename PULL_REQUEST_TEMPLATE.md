@@ -2,7 +2,7 @@
 
 Please follow the steps below to tell us about your contribution.
 
-**Please be sure to read the [contributor's guide](https://github.com/atos-parallel/.github/blob/master/CONTRIBUTING.md) before submitting any pull requests.**
+**Please be sure to read the [contributor's guide](https://github.com/eviden-parallel/.github/blob/master/CONTRIBUTING.md) before submitting any pull requests.**
 
 ### Requirements
 
