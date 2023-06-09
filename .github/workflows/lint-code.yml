@@ -31,7 +31,7 @@ jobs:
           check-latest: true
           cache: 'npm'
           registry-url: https://npm.pkg.github.com/
-          scope: '@atos-parallel'
+          scope: '@eviden-parallel'
 
       - name: '⛓️ Install dependencies'
         env:
