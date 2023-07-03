@@ -227,4 +227,5 @@ BREAKING CHANGE: use JavaScript features not available in Node 6.
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
+- [Writing good commits](https://github.blog/2022-06-30-write-better-commits-build-better-projects/)
 - [GitHub Help](https://help.github.com)
