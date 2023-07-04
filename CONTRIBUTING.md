@@ -125,9 +125,10 @@ Please follow these steps to have your contribution considered by the maintainer
 
 1. Follow all instructions in [the template](PULL_REQUEST_TEMPLATE.md)
 2. Follow the [styleguides](#styleguides)
-3. Assign the issue(s) to yourself to avoid concurent work on the same task.
-4. Open the PR as soon as possible in status `Draft` until it is ready for review.
-5. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
+3. To avoid concurent work on the same task, assign the issue(s) to yourself or if you are _external contributor_, comment on the issue with `@eviden-parallel/maintainers assign me` to have maintainers assign the issue to you.
+4. Create a new branch for each pull request (PR) following the [branch naming convention](#branch-naming-convention). _External contributors_ should fork the repository and create the branch in [their fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) ideally also following the [branch naming convention](#branch-naming-convention).
+5. Open the PR as soon as possible in status `Draft` until it is ready for review.
+6. After you submit your pull request, verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
 
@@ -226,4 +227,5 @@ BREAKING CHANGE: use JavaScript features not available in Node 6.
 
 - [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 - [Using Pull Requests](https://help.github.com/articles/about-pull-requests/)
+- [Writing good commits](https://github.blog/2022-06-30-write-better-commits-build-better-projects/)
 - [GitHub Help](https://help.github.com)
