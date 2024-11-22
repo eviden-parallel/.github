@@ -142,6 +142,39 @@ Here are a addit few things you can do that will increase the likelihood of your
 - Write tests whenever applicable.
 - Keep your change as focused as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 
+### Labels
+
+We use the following labels to help organize and identify issues and pull requests:
+
+| Label Name            | Type     | Description                                              |
+| --------------------- | -------- | -------------------------------------------------------- |
+| 🐛 bug                | Type     | Something isn't working                                  |
+| 💡 feature            | Type     | Adding a new feature or enhancing an existing one        |
+| ♻️ devops             | Type     | Anything related to CI/CD, deployment, or infrastructure |
+| 🧪 labs               | Type     | Experimental features or prototypes                      |
+| 🎨 design             | Type     | Tasks for the design team                                |
+| 🧑‍💻 dev                | Type     | Tasks for the development team                           |
+| ⁉️ invalid            | Status   | This doesn't seem right                                  |
+| 📋 duplicate          | Status   | This issue or pull request already exists                |
+| 👀 triage             | Status   | New issues that have not been reviewed yet               |
+| ❕wontfix             | Status   | This will not be worked on                               |
+| 🛑 blocked            | Status   | This issue is blocked                                    |
+| 🚀 released           | Status   | This issue has been released                             |
+| 🚀 released on @alpha | Status   | This issue has been released on alpha                    |
+| 🚀 released on @beta  | Status   | This issue has been released on beta                     |
+| 🚀 released on @next  | Status   | This issue has been released on next                     |
+| ‼️ critical           | Severity | A very inspiring description                             |
+| 🔐 security           | Target   | Security vulnerabilities                                 |
+| ♿ a11y               | Target   | Accessibility                                            |
+| css                   | Target   | Pull requests that update CSS code                       |
+| javascript            | Target   | Pull requests that update Javascript code                |
+| ⛓️ dependencies       | Target   | Pull requests that update a dependency file              |
+| 📄 docs               | Target   | Improvements or additions to documentation               |
+| ⚙️ github_actions     | Target   | Pull requests that update GitHub Actions code            |
+| 👍 good first issue   | Misc     | Good for newcomers                                       |
+| 🆘 help wanted        | Misc     | Extra attention is needed                                |
+| ❔ question           | Misc     | Further information is requested                         |
+
 ## Styleguides
 
 ### Branche name

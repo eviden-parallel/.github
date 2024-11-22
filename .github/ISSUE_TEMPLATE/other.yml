@@ -1,6 +1,6 @@
 name: '🤷 Other'
 description: Everything that doesn't fit in the other categories
-labels: ['👀 needs triage']
+labels: ['👀 triage']
 
 body:
   - type: markdown
@@ -22,21 +22,31 @@ body:
         - Docs
         - Bootstrap
 
-  - type: textarea
-    id: what-happened
+  - type: dropdown
     validations:
-      required: true
+      required: false
     attributes:
-      label: Current behavior
-      description: Is your feature request related to a problem? Please describe.
+      multiple: true
+      label: What area is affected?
+      options:
+        - '♿ Accessibility'
+        - '🤖 Build'
+        - '🔁 CI/CD'
+        - '📦 Components'
+        - '📄 Documentation'
+        - '🔥 Performance'
+        - '🔐 Security'
+        - '🎨 Styles'
+        - '✅ Tests'
+        - '🤷 Other'
 
   - type: textarea
     id: suggested-solution
     validations:
-      required: false
+      required: true
     attributes:
-      label: Suggested enhancement
-      description: Describe the enhancement you'd like.
+      label: Desciption
+      description: Describe what you'd like to change.
 
   - type: input
     id: context

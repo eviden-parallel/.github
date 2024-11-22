@@ -1,6 +1,6 @@
 name: '🐛 Bug report'
 description: Report a bug/problem
-labels: ['🐛 bug', '👀 needs triage']
+labels: ['🐛 bug', '👀 triage']
 
 body:
   - type: markdown
@@ -11,16 +11,35 @@ body:
   - type: dropdown
     id: package
     validations:
-      required: true
+      required: false
     attributes:
       label: Affected package
-      description: Which package is affected?
+      description: Which packages are affected?
+      multiple: true
       options:
         - Core
         - Components
         - Icons
         - Docs
         - Bootstrap
+
+  - type: dropdown
+    validations:
+      required: false
+    attributes:
+      multiple: true
+      label: In what areas does this bug report apply?
+      options:
+        - '♿ Accessibility'
+        - '🤖 Build'
+        - '🔁 CI/CD'
+        - '📦 Components'
+        - '📄 Documentation'
+        - '🔥 Performance'
+        - '🔐 Security'
+        - '🎨 Styles'
+        - '✅ Tests'
+        - '🤷 Other'
 
   - type: textarea
     id: what-happened
@@ -51,7 +70,7 @@ body:
   - type: dropdown
     id: platforms
     validations:
-      required: true
+      required: false
     attributes:
       label: What platforms does this bug report apply to?
       description: You may select more than one.

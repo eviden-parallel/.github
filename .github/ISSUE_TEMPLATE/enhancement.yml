@@ -1,6 +1,6 @@
 name: '📈 Enhancement'
 description: Suggest an idea to improve this project
-labels: ['📈 enhancement', '👀 needs triage']
+labels: ['💡 feature', '👀 triage']
 
 body:
   - type: markdown
@@ -24,19 +24,20 @@ body:
 
   - type: dropdown
     validations:
-      required: true
+      required: false
     attributes:
-      multiple: false
-      label: Type of feature
-      description: Select the type of feature request, the lowercase should also be the PR prefix.
+      multiple: true
+      label: What area would this enhancement affect?
       options:
         - '♿ Accessibility'
         - '🤖 Build'
-        - '🔁 CI'
+        - '🔁 CI/CD'
+        - '📦 Components'
+        - '📄 Documentation'
         - '🔥 Performance'
-        - '🧑‍💻 Refactor'
-        - '🎨 Style'
-        - '✅ Test'
+        - '🔐 Security'
+        - '🎨 Styles'
+        - '✅ Tests'
         - '🤷 Other'
 
   - type: textarea

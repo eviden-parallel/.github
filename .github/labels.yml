@@ -1,0 +1,143 @@
+#
+# Configuration file with all labels used accross the organization
+#
+# Each label is defined by:
+# - name: The name of the label.
+# - color: The color of the label, with or without a leading #.
+# - description: [optional] The description of the label (max 100 characters).
+# - aliases: [optional] An array containing the "aliases" of the label. If an existing label's name is an alias that label will be edited to match your config: this way you don't loose issues and PRs that have been labeled previously.
+
+# Type ********************************************************************************************************************
+
+- name: 🐛 bug
+  color: 'd73a4a'
+  description: Something isn't working
+  aliases: ['bug']
+
+- name: 💡 feature
+  color: '0e8a16'
+  description: Adding a new feature or enhancing an existing one
+  aliases: ['feature', '📈 enhancement', 'enhancement']
+
+- name: ♻️ devops
+  color: '006B75'
+  description: Anything related to CI/CD, deployment, or infrastructure
+  aliases: ['♻️ CI/CD', 'CI/CD', 'devops', 'ci', '🛠️ tools', 'tools', 'build']
+
+- name: 🧪 labs
+  color: '0619E4'
+  description: Experimental features or prototypes that may not be ready for production
+  aliases: ['labs', '🧪 research', 'research']
+
+- name: 🎨 design
+  color: 'B99023'
+  description: Tasks for the design team
+  aliases: ['design', '🖼️ visual', '🎨 needs design', 'needs design']
+
+- name: 🧑‍💻 dev
+  color: 'B99023'
+  description: Tasks for the development team
+  aliases: ['dev', 'development', 'code']
+
+# Status ******************************************************************************************************************
+
+- name: ⁉️ invalid
+  color: 'e4e669'
+  description: This doesn't seem right
+  aliases: ['invalid']
+
+- name: 📋 duplicate
+  color: 'cfd3d7'
+  description: This issue or pull request already exists
+  aliases: ['duplicate']
+
+- name: 👀 triage
+  color: 'B99023'
+  description: New issues that have not been reviewed yet
+  aliases: ['👀 needs triage', 'needs triage']
+
+- name: ❕wontfix
+  color: 'ffffff'
+  description: This will not be worked on
+  aliases: ['wontfix']
+
+- name: 🛑 blocked
+  color: 'F9D0C4'
+  aliases: ['blocked', 'second', 'third']
+
+- name: 🚀 released
+  color: 'ededed'
+  aliases: ['released']
+
+- name: 🚀 released on @alpha
+  color: 'ededed'
+  aliases: ['released']
+
+- name: 🚀 released on @beta
+  color: 'ededed'
+  aliases: ['released']
+
+- name: 🚀 released on @next
+  color: 'ededed'
+  aliases: ['released']
+
+# Severity ****************************************************************************************************************
+
+- name: ‼️ critical
+  color: '870501'
+  description: A very inspiring description
+  aliases: ['critical']
+
+# Target ******************************************************************************************************************
+
+- name: 🔐 security
+  color: 'B60205'
+  description: Security vulnerabilities
+  aliases: ['security']
+
+- name: ♿ a11y
+  color: '0052CC'
+  description: Accessibility
+  aliases: ['a11y', 'Accessibility']
+
+- name: css
+  color: '870501'
+  description: Pull requests that update CSS code
+  aliases: ['css', 'styles']
+
+- name: javascript
+  color: '870501'
+  description: Pull requests that update Javascript code
+  aliases: ['javascript', 'typescript']
+
+- name: ⛓️ dependencies
+  color: '0366d6'
+  description: Pull requests that update a dependency file
+  aliases: ['dependencies', 'deps']
+
+- name: 📄 docs
+  color: '0075ca'
+  description: Improvements or additions to documentation
+  aliases: ['docs']
+
+- name: ⚙️ github_actions
+  color: '000000'
+  description: Pull requests that update GitHub Actions code
+  aliases: ['github_actions']
+
+# Misc ********************************************************************************************************************
+
+- name: 👍 good first issue
+  color: '7057ff'
+  description: Good for newcomers
+  aliases: ['good first issue']
+
+- name: 🆘 help wanted
+  color: '008672'
+  description: Extra attention is needed
+  aliases: ['help wanted']
+
+- name: ❔ question
+  color: 'd876e3'
+  description: Further information is requested
+  aliases: ['question']
