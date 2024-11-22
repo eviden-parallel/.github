@@ -29,3 +29,5 @@ jobs:
           access_token: ${{ secrets.GITHUB_TOKEN }}
           label: '⁉️ invalid'
           branch_pattern: ''
+          close: false
+          strict: false
