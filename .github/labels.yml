@@ -71,15 +71,15 @@
 
 - name: 🚀 released on @alpha
   color: 'ededed'
-  aliases: ['released']
+  aliases: ['released on @alpha']
 
 - name: 🚀 released on @beta
   color: 'ededed'
-  aliases: ['released']
+  aliases: ['released on @beta']
 
 - name: 🚀 released on @next
   color: 'ededed'
-  aliases: ['released']
+  aliases: ['released on @next']
 
 # Severity ****************************************************************************************************************
 
