@@ -1,6 +1,6 @@
 name: '🙏 Feature request'
 description: Suggest a new feature for this project
-labels: ['💡 feature', '👀 needs triage']
+labels: ['💡 feature', '👀 triage']
 
 body:
   - type: markdown
@@ -9,18 +9,22 @@ body:
         Thanks for taking the time to fill out this feature request!
 
   - type: dropdown
-    id: package
     validations:
-      required: true
+      required: false
     attributes:
-      label: Affected package
-      description: Which package is affected?
+      multiple: true
+      label: What area would this new feature affect?
       options:
-        - Core
-        - Components
-        - Icons
-        - Docs
-        - Bootstrap
+        - '♿ Accessibility'
+        - '🤖 Build'
+        - '🔁 CI/CD'
+        - '📦 Components'
+        - '📄 Documentation'
+        - '🔥 Performance'
+        - '🔐 Security'
+        - '🎨 Styles'
+        - '✅ Tests'
+        - '🤷 Other'
 
   - type: textarea
     id: what-happened
