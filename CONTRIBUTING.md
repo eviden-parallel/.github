@@ -23,11 +23,13 @@ We have an official message board where the community chimes in with helpful adv
 
 **Parallel** is project made up of [multiple repositories](https://github.com/eviden-parallel). When you initially consider contributing to **Parallel**, you might be unsure about which of those repositories implements the functionality you want to change or report a bug for. This section should help you with that.
 
-- [@eviden-parallel/web](https://github.com/eviden-parallel/web) - monorepo for **Parallel** web components. It is the source for both the `@eviden-parallel/core` and `@eviden-parallel/components` packages.
+- [@eviden-parallel/roadmap](https://github.com/eviden-parallel/roadmap) - the **Parallel** public roadmap.
+- [@eviden-parallel/core](https://github.com/eviden-parallel/core) - repo for **Parallel** base styles. It is the source for the `@eviden-parallel/core` package.
+- [@eviden-parallel/components](https://github.com/eviden-parallel/components) - repo for **Parallel** web components. It is the source for the `@eviden-parallel/components` package.
 - [@eviden-parallel/icons](https://github.com/eviden-parallel/icons) - the icons that can be used with **Parallel** through the `@eviden-parallel/icons` package.
 - [@eviden-parallel/bootstrap](https://github.com/eviden-parallel/bootstrap) - a custom style to make Bootstrap look like **Parallel** through the `@eviden-parallel/bootsrap` package.
-- [@eviden-parallel/playground](https://github.com/eviden-parallel/playground) - For any kind of research and experimentation
-- [@eviden-parallel/welcome](https://github.com/eviden-parallel/welcome) - tne welcome page for **Parallel**
+- [@eviden-parallel/playground](https://github.com/eviden-parallel/playground) - For any kind of research and experimentation and demos.
+- [@eviden-parallel/welcome](https://github.com/eviden-parallel/parallel) - tne welcome page for **Parallel**
 
 There are more, but this list should be a good starting point.
 
@@ -72,7 +74,7 @@ Provide more context by answering these questions:
 
 - **Can you reproduce the problem?**
 - **Did the problem start happening recently** (e.g. after updating to a new version of **Parallel**) or was this always a problem?
-- If the problem started happening recently, **can you reproduce the problem in an older version of **Parallel**?** What's the most recent version in which the problem doesn't happen? You can download older versions of **Parallel** from [the releases page](https://github.com/eviden-parallel/web/releases).
+- If the problem started happening recently, **can you reproduce the problem in an older version of **Parallel**?** What's the most recent version in which the problem doesn't happen? You can download older versions of **Parallel** from [the releases page](https://github.com/orgs/eviden-parallel/packages).
 - **Can you reliably reproduce the issue?** If not, provide details about how often the problem happens and under which conditions it normally happens.
 
 Include details about your configuration and environment:
@@ -83,7 +85,7 @@ Include details about your configuration and environment:
 - **Are you using **Parallel** with multiple monitors?** If so, can you reproduce the problem when you use a single monitor?
 - **Which keyboard layout are you using?** Are you using a US layout or some other layout?
 
-### Suggesting Enhancements
+### Suggesting Enhancements and Features
 
 This section guides you through submitting an enhancement suggestion for **Parallel**, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
 
@@ -108,9 +110,28 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
 - **Specify which version of **Parallel** are you using?** You can get the exact version from the package-lock.json file in your project.
 - **Specify the name and version of the OS you're using.**
 
+### Your First Contribution
+
+Unsure where to begin contributing to **Parallel**? You can start by looking through these [🆘 help wanted](https://github.com/eviden-parallel/roadmap/search?q=org%3Aeviden-parallel+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
+
+### Labs
+
+Need a component for your application that does't exist yet and you need it quickly.
+Check out our [Labs](https://www.figma.com/design/zeuCPOxmWUzu7r9Lxbwiz7/Parallel-Labs) for experimental features or prototypes or even submit your own.
+Not a designer? No problem! You can still contribute by creating a prototype in the labs section of each package.
+
+Design or implement your component following the design principles and guidelines outlined in this system along with a short description of its purpose, use case, and any relevant documentation.
+
+> [!NOTE] > **Note:** The **Parallel** team will not be able to provide support for components in the Labs section. These components are experimental and may not be fully accessible or responsive. They are not guaranteed to be included in the system.
+
+#### Collaborate and iterate!
+
+Once you are happy with the result, submit it as a new issue in the [Parallel repository](https://github.com/eviden-parallel/roadmap/issues) or link an existing issue to your design or pull request.
+Our team will review submissions regularly, provide feedback, and discuss how your idea fits within the broader system.
+
 ### Your First Code Contribution
 
-Unsure where to begin contributing to **Parallel**? You can start by looking through these [🆘 help wanted](https://github.com/eviden-parallel/web/search?q=org%3Aeviden-parallel+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
+Unsure where to begin contributing to **Parallel**? You can start by looking through these [🆘 help wanted](https://github.com/eviden-parallel/roadmap/search?q=org%3Aeviden-parallel+type%3Aissues+label%3A%F0%9F%86%98+help+wanted) issues:
 
 ### Pull Requests
 
