@@ -141,3 +141,8 @@
   color: 'd876e3'
   description: Further information is requested
   aliases: ['question']
+
+- name: 🧹 refactoring
+  color: 'FBCA04'
+  description: Code refactoring
+  aliases: ['refactoring', 'cleanup']
