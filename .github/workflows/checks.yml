@@ -18,10 +18,16 @@ concurrency:
   group: ${{ github.workflow }}_${{ github.head_ref || github.ref || github.run_id }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   lint-pr:
     name: '📌'
     uses: ./.github/workflows/lint-pr.yml
+    permissions:
+      contents: read
+      packages: read
 
   lint-code:
     name: '📌'
@@ -29,3 +35,7 @@ jobs:
     uses: ./.github/workflows/lint-code.yml
     secrets:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
+    permissions:
+      contents: read
+      issues: read
+      pull-requests: write

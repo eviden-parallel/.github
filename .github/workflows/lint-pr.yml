@@ -9,11 +9,19 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   lint-pr:
     name: '🕵️‍♂️ Lint Commit Message'
     runs-on: ubuntu-latest
     # container: node:lts-bullseye
+
+    permissions:
+      contents: read
+      issues: read
+      pull-requests: write
 
     steps:
       # check for the most recent release: https://github.com/Namchee/conventional-pr/releases
