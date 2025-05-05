@@ -27,7 +27,8 @@ jobs:
     uses: ./.github/workflows/lint-pr.yml
     permissions:
       contents: read
-      packages: read
+      issues: read
+      pull-requests: write
 
   lint-code:
     name: '📌'
@@ -37,5 +38,4 @@ jobs:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN  }}
     permissions:
       contents: read
-      issues: read
-      pull-requests: write
+      packages: read
