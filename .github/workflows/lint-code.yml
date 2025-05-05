@@ -20,23 +20,18 @@ jobs:
 
     steps:
       - name: '☁️ Checkout repository'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event.workflow_run.head_sha || github.event.pull_request.head.sha }}
           persist-credentials: false
 
-      - name: '⚙️ Use Node.js'
-        uses: actions/setup-node@v2
-        with:
-          check-latest: true
-          cache: 'npm'
-          registry-url: https://npm.pkg.github.com/
-          scope: '@eviden-parallel'
-
       - name: '⛓️ Install dependencies'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm ci --no-optional --no-audit --prefer-offline --progress=false
+        uses: eviden-actions/npm-ci@v1
+        with:
+          npm_proxy: ${{ vars.NPM_PROXY }}
+          private_registry_url: https://npm.pkg.github.com/
+          private_registry_scope: '@eviden-parallel'
+          token: ${{ secrets.NPM_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: '✅ Lint code'
         run: npm run lint
