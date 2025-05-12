@@ -9,6 +9,14 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+
+registries:
+  eviden-actions:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: ${{secrets.DEPENDABOT_TOKEN}}
+
 updates:
   - package-ecosystem: 'npm'
     directory: '/' # Location of package manifests
@@ -17,5 +25,15 @@ updates:
       time: '00:00'
       timezone: 'Europe/Berlin'
 
-    reviewers:
-      - 'Th3S4mur41'
+    groups:
+      commitlint:
+        patterns:
+          - '@commitlint/*'
+
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    registries: '*'
+    schedule:
+      interval: 'daily'
+      time: '00:00'
+      timezone: 'Europe/Berlin'
