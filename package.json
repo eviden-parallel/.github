@@ -18,7 +18,7 @@
 		"@commitlint/cli": "^21.2.0",
 		"@commitlint/config-conventional": "^21.0.2",
 		"husky": "^9.1.7",
-		"prettier": "^3.9.3",
+		"prettier": "^3.9.4",
 		"pretty-quick": "^4.2.2"
 	}
 }
